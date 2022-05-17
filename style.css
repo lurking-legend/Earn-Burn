@@ -1,0 +1,224 @@
+#navbar {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:flex;
+  }
+  
+
+#navbar li {
+    font-size: 30px;
+    float: left;
+    list-style-type: none;
+    padding-bottom: 20px;
+    padding-right: 100px;
+  }
+  
+#navbar li a {
+    display: block;
+    padding-right: 60px;
+    background-color: white;
+  }
+
+div {
+  font-size: 25px;
+  text-align:center;
+  padding-top: 15px;
+  /* padding-bottom: 20px; */
+}
+
+
+button {
+  margin-left: calc(100vw-700px);
+  /* float: right; */
+  display: block;
+}
+
+a {
+text-decoration:none;
+color: black;
+}
+
+h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+#p1 {
+  padding-left: 42px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+
+
+#leftbox {
+  float:left; 
+  background:white;
+  width:33.33%;
+}
+
+#middlebox{
+  float:left; 
+  background:white;
+  width:33.33%;
+}
+
+#rightbox{
+  float:right;
+  background:white;
+  width:33.33%;
+}
+
+h1{
+  color:lightgreen;
+  text-align:center;
+}
+
+#a1 {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#btn1 {
+  
+  font-size: 25px;
+  text-align:center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+#div2 {
+
+  background-color:rgb(250, 240, 240);
+  text-align: center;
+  align-items: center;
+}
+
+
+#main {
+  margin: auto;
+  width: 40%;
+  border: 3px solid #ebf5dd;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 235, 219);
+}
+
+#login {
+  margin: 0;
+  padding: 0;
+  background: url(3.jpg);
+  background-size: cover ;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.loginbox {
+  justify-content: center;
+  display: flex;
+  width: 320px;
+  height: 400px;
+  background:honeydew;
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.avatar {
+  display:flex ;
+  width: 100px;
+  height: 100px;
+  position: absolute; 
+  top: -50px;
+}
+
+.logh {
+  margin: 0;
+  padding: 0 0 20px;
+  position: absolute;
+  text-align: center;
+  font-size: 22px;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: black;
+}
+
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.forum {
+  padding-top: 35px;
+}
+
+.forum a {
+  float: left;
+  font-size: 15px;
+  color: black;
+}
+
+input {
+  outline:none;
+}
+
+.loginbox input[type="text"] , input[type="password"], input[type="email"] {
+  height: 24px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: black;
+  font-size: 15px;
+}
+
+.loginbox input[type="submit"] {
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+}
+
+nav li {
+  font-size: 30px;
+  float: left;
+  list-style-type: none;
+  padding-bottom: 20px;
+  padding-right: 100px;
+}
+
+nav li a {
+  display: block;
+  padding-right: 60px;
+  background-color: white;
+}
+
+
+.temp1 {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.feat {
+  padding-right: 100px;
+}
+
+.p2 {
+  font-size: 20px;
+}
