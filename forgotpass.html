@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="login">
+    <div class="loginbox" style="width: 400px; height: 500px;">
+        <img src="4.webp" class="avatar">
+        <h1 class="logh" style="color: black; font-size: 28px;">Forgot Password</h1>
+        <form class="forum">
+            <p style="text-align: left; font-size: 18px";>Email-id</p>
+            <input type="email" name="" placeholder="Enter Email">
+
+            <div class="forumcontrol" >
+            <p style="text-align: center; font-size: 18px";>OTP</p>
+            <!-- <input style="border-bottom: 28px;
+             text-align:center; font-size: 18px; letter-spacing: 2px; " class="form-control"  type="password" placeholder="0000" maxlength="4"> -->
+            
+           <div class="inputs">
+                 <input class="fgtps" id="fir" type="text" pattern="[0-9]" maxlength="1" onkeyup="clickEvent(this,'sec')" >
+                 <input class="fgtps" id="sec" type="text" pattern="[0-9]" maxlength="1" onkeyup="clickEvent(this,'third')" >
+                 <input class="fgtps" id="third" type="text" pattern="[0-9]" maxlength="1" onkeyup="clickEvent(this,'four')" >
+                 <input class="fgtps" id="four" type="text" pattern="[0-9]" maxlength="1">
+            </div>
+        </div>
+
+
+            <a href="#" class="otp" style=" font-size: 16px; padding-top: 5px; " href="#" class="button">Resend OTP?</a>
+            <br>
+            <br>
+
+            <p style="text-align: left; font-size: 18px;">New Password</p>
+            <input type="password" name="" placeholder="Enter New Password">
+            <p style="text-align: left; font-size: 18px;">Re-Enter New Password</p>
+            <input type="password" name="" placeholder="Re-Enter New Password">
+            <input type="submit" name="" style="width: 70px; height: 35px; background-color:black; color: white;" value="Submit">
+            
+            
+        </form>
+    </div>
+
+<script type="text/javascript">
+    function clickEvent(first,last){
+        if(first.value.length){
+            document.getElementById(last).focus();
+        }
+    }
+
+let btnClear = document.querySelector('backspace');
+let inputs = document.querySelector('input');
+
+btnClear.addEventListener('click',()=> {
+    inputs.forEach(input => input.value='');
+});
+    
+    
+</script>
+
+</body>
